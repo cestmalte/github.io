@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Favicons -->
+  <!-- Favicons -->
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
   <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
 
-  <link rel="icon" type="image/png" href="favicon.png">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>C’est Malte</title>
+
   <style>
-    body {
+    body {     
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; /* stack text vertically */
+      text-align: center;
       background-color: #faf8f8;
+      height: 100vh; /* center vertically */
+      margin: 0;
+      font-family: system-ui, sans-serif;
     }
+
     h1 {
       color: #0070f3;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      max-width: 600px;
+      line-height: 1.6;
     }
   </style>
 </head>
+
 <body>
   <h1>Hello, I’m Malte</h1>
   <p>Welcome to my website <strong>cestmalte.eu</strong>.</p>
